@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="syle.css">
+</head>
+
+<body>
+    <div class="main">
+    <div class="container">
+        <div class="header">
+            <h1 id="title">All Student Details</h1>
+            
+           
+        </div>
+        
+    </div>
+    <p id="description">It is a DOM pagination Task used to get student details from js and print the output as Table format </p>
+    <!-- <div class="pagination">
+        <button id="previous">
+            <i class="fa-solid fa-backward"></i>
+        </button>
+
+        <div id="numbers" ></div>
+       
+        <button id="next">
+            <i class="fa-solid fa-forward"></i>
+        </button>
+
+        
+        <p id="pageInfo"></p>
+        
+
+    </div> -->
+
+    <div class="student-details">
+
+        <form class="student-form" id="form">
+            <br /><br />
+            <!-- class="first-name"  -->
+            <input id="first-name" placeholder="First name" type="text" />
+            <input id="last-name" placeholder="last name" type="text" /> <br /><br />
+            <!-- <input  id ="address"  placeholder="address"   type="text"/> <br/><br/> -->
+            <textarea form="student-form-id" id="address" placeholder="address" name="text" cols="15"> </textarea>
+            <br /><br />
+            <input id="state" placeholder="state" type="text" /> <br /><br />
+            <input id="country" placeholder="country" type="text" /> <br /><br />
+            <input id="pincode" placeholder="pincode" type="text" /> <br /><br />
+            <input id="gender1" name="gender" type="radio" />Male<br />
+            <input id="gender2" name="gender" type="radio" />Female<br />
+            <input id="gender3" name="gender" type="radio" />Other<br />
+            <p>Choice of Food</p><br />
+            <input class="single-checkbox" id="name1" type="checkbox" value="Briyani" />Briyani <br />
+            <input class="single-checkbox" id="name2" type="checkbox" value="Fried Rice" />Fried Rice <br />
+            <input class="single-checkbox" id="name3" type="checkbox" value="Pizza" />Pizza <br />
+            <input class="single-checkbox" id="name4" type="checkbox" value="Burger" />Burger <br />
+            <input class="single-checkbox" id="name5" type="checkbox" value="Meals" />Meals <br />
+
+            <button type="submit">Submit</button>
+            <!-- <button type="reset">Clear</button> -->
+
+        </form>
+        <div class="table-responsive">
+            <div>
+                
+        <table class="table"  id="studen-table">
+            <tr>
+                <th> first-name</th>
+                <th> last</th>
+                <th> address </th>
+                <th> state </th>
+                <th> country </th>
+                <th> pincode </th>
+                <th> gender</th>
+                <th>Choice of Food</th>
+
+            </tr>
+        </table>
+    </div>
+    </div>
+
+    </div>
+</div>
+    <script src="script.js"></script>
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+</body>
+
+</html>

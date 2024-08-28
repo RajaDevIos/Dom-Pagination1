@@ -1,0 +1,30 @@
+.Student-Details{
+  
+    margin-top: 250px;
+    margin-left: 100px;
+    margin-right: 200px;
+   width: 500px;
+ padding-left: 20px;
+ border: 1px solid black;
+
+   
+
+}
+.student-form{
+    margin-left: 25px;
+   
+}
+.first-name{
+    margin-right: 25px;
+}
+.Student-Details,th,td{
+   
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 850px;
+   
+    
+}
+
+
+
